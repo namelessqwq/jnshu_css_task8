@@ -1,0 +1,166 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:link {
+  color: #fff;
+}
+
+/* header部分 */
+.header {
+  height: 39px;
+  font-size: 0;
+}
+
+.header .tel {
+  line-height: 39px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #2AB078;
+}
+
+.header .contact ,.header .contact ul{
+  height: 100%;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.header .contact ul li {
+  width: 25px; 
+  height: 24px;
+  float: right;
+  margin-top: 7px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+
+}
+
+.header .contact ul li:nth-child(3) {
+  background-image: url(../img/icon_wechat.png);
+}
+
+.header .contact ul li:nth-child(2) {
+  background-image: url(../img/icon_qq.png);
+}
+
+.header .contact ul li:nth-child(1) {
+  background-image: url(../img/icon_weibo.png);
+}
+
+/* nav部分 */
+.nav {
+  width: 100%;
+  height: 100px;
+  font-size: 0;
+  background-color: #2AB078;
+}
+
+.nav a {
+  padding: 0;
+  margin: 0;
+  line-height: 100px;
+  color: #fff;
+}
+
+.nav .nav_bar {
+  height: 100%;
+}
+
+
+.nav .nav_bar ul li {
+  float: right;
+  font-size: 17px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 100.9px;
+  height: 100px;
+  border-bottom: 4px solid #2AB078;
+  text-align: center;
+}
+
+.nav .nav_bar ul li:last-child {
+  border-bottom: 4px solid #fff;
+}
+
+/* main部分 */
+.main {
+ 
+ margin-top: 163px;
+}
+
+.main .icon1 {
+  background-image: url(../img/rocket.png);
+  width: 43px;
+  height: 62px;
+}
+
+.main .icon2 {
+  background-image: url(../img/archive.png);
+  width: 60px;
+  height: 50px;
+}
+
+.main .icon3 {
+  background-image: url(../img/shape.png);
+  width: 52px;
+  height: 55px;
+}
+
+.main .character .row > div > div{
+  margin: 0 auto;
+}
+
+.main .character .row > div p{
+  text-align: center;
+}
+
+/* .main .character .row > div{
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+} */
+
+.main .character .row > div:nth-child(1) > div{
+  margin-top: 2px;
+}
+
+.main .character .row > div:nth-child(2) > div{
+  margin-top: 13px;
+}
+
+.main .character .row > div:nth-child(3) > div{
+  margin-top: 11px;
+}
+
+.main .statistic .icon {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-image: url(../img/user.png);
+}
+
+.main .statistic {
+  border-left: 1px dashed #dedede;
+  height: 264px;
+  margin: auto 0;
+
+}
