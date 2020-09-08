@@ -1,5 +1,5 @@
 .container {
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -161,6 +161,147 @@ a:link {
 .main .statistic {
   border-left: 1px dashed #dedede;
   height: 264px;
-  margin: auto 0;
+  position: relative;
+}
+
+.main .statistic .data {
+  position: absolute;
+  top: 50%;
+  left: 43px;
+  transform: translateY(-50%);
+}
+
+.main .statistic span {
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  color: #26A26F; 
+  margin-right: 14px;
+}
+
+.main .statistic p {
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #999999;
+  line-height: 57px;
+  text-align: left !important;
+}
+
+.main .character .row div[class*="icon"] {
+  margin-bottom: 31px;
+}
+
+.main .character .row > div > p:nth-of-type(1) {
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #333333; 
+  margin-bottom: 31px;
+} 
+
+.main .character .row > div > p:nth-of-type(2) {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #999999;
+  line-height: 26px;
+}
+
+/* main 如何学习部分 */
+.main .how_to_learn {
+  margin-top: 100px;
+  padding: 0;
+}
+
+.main .how_to_learn .title {
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  text-align: center;
+  font-weight: bold;
+  color: #333333;
+}
+
+.main .how_to_learn .process {
 
 }
+
+.main .how_to_learn .process_1, .main .how_to_learn .process_2 {
+  height: 172px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main .how_to_learn .process .step {
+  width: 70px;
+  height: 70px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px 0px rgba(8, 1, 3, 0.15);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 70px;
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  color: #29B078;
+  margin-right: 18px;
+}
+
+.main .how_to_learn .process .text {
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #999999;
+  display: inline;
+  margin-right: 37px;
+
+}
+
+.main .how_to_learn .process div[class*="process_"] div:nth-of-type(2) {
+  width: 155px;
+  height: 41px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #999999;
+  line-height: 26px;
+}
+
+.main .how_to_learn .process div[class*="process_"] div:nth-of-type(5) {
+  width: 161px;
+  height: 41px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #999999;
+  line-height: 26px;
+}
+
+.main .how_to_learn .process div[class*="process_"] div:nth-of-type(8) {
+  width: 161px;
+  height: 41px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #999999;
+  line-height: 26px;
+}
+
+.main .how_to_learn .process div[class*="process_"] div:nth-of-type(11) {
+  width: 124px;
+  height: 41px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #999999;
+  line-height: 26px;
+}
+
+.main .how_to_learn .process .icon {
+  width: 28px;
+  height: 26px;
+  background: #FFFFFF;
+  background-image: url(../img/next.png);
+  margin-right: 20px;
+}
+
+/* main 展示部分 */
