@@ -103,8 +103,8 @@ a:link {
 
 /* main部分 */
 .main {
- 
- margin-top: 163px;
+ background-color: #fafafa;
+ padding-top: 163px;
 }
 
 .main .icon1 {
@@ -213,16 +213,12 @@ a:link {
   padding: 0;
 }
 
-.main .how_to_learn .title {
+.main .title, .footer .title {
   font-size: 18px;
   font-family: MicrosoftYaHei;
   text-align: center;
   font-weight: bold;
   color: #333333;
-}
-
-.main .how_to_learn .process {
-
 }
 
 .main .how_to_learn .process_1, .main .how_to_learn .process_2 {
@@ -335,13 +331,12 @@ a:link {
 
 }
 
-.main .student_show .student > div:nth-last-of-type(4) .profile {
+.main .student_show .student > div .profile {
   width: 108px;
   height: 108px;
   background: #333333;
   border-radius: 50%;
   overflow: hidden;
-  background-image: url(../img/profile_1.png);
   background-position-x: -5px;
   background-position-y: -20px;
   position: absolute;
@@ -369,4 +364,239 @@ a:link {
   color: #999999;
   line-height: 26px;
   margin-top: 26px;
+}
+
+.main .student_show .student > div:nth-last-of-type(4) .profile {
+  background-image: url(../img/profile_1.png);
+}
+
+.main .student_show .student > div:nth-last-of-type(3) .profile {
+  background-image: url(../img/profile_2.png);
+}
+
+.main .student_show .student > div:nth-last-of-type(2) .profile {
+  background-image: url(../img/profile_3.png);
+}
+
+.main .student_show .student > div:nth-last-of-type(1) .profile {
+  background-image: url(../img/profile_4.png);
+  background-position-x: -15px;
+  background-position-y: 0px;
+}
+
+.main .student_show .student:after {
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.main .student_show .progress_bar {
+  margin-top: 25px;
+}
+
+.main .student_show .progress_bar ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.main .student_show .progress_bar ul li {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px 0px rgba(8, 1, 3, 0.15);
+  margin-right: 4px;
+}
+
+.main .student_show .progress_bar ul li:nth-child(1) {
+  background: #29B078;
+  box-shadow: none;
+}
+
+/* main合作部分 */
+.main .business_partners {
+  margin-top: 133px;
+  padding-bottom: 93px;
+}
+
+.main .business_partners ul {
+  height: 176px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px 0px rgba(8, 1, 3, 0.15);
+  border-radius: 4px;
+  margin-top: 68px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main .business_partners ul > li:nth-child(1) {
+  width: 212px;
+  height: 176px;
+  margin-left: 34px;
+  background: url(../img/alibaba.png) no-repeat;
+}
+
+.main .business_partners ul > li:nth-child(2) {
+  width: 237px;
+  height: 137px;
+  background: url(../img/kingsoft.png) no-repeat;
+  margin-left: 27px;
+}
+
+.main .business_partners ul > li:nth-child(3) {
+  width: 134px;
+  height: 69px;
+  background: url(../img/huanxing.png) no-repeat;
+  margin-left: 50px;
+}
+
+.main .business_partners ul > li:nth-child(4) {
+  width: 191px;
+  height: 191px;
+  background: url(../img/yuntongxun.png) no-repeat;
+  margin-left: 87px;
+}
+
+.main .business_partners ul > li:nth-child(5) {
+  width: 124px;
+  height: 124px;
+  background: url(../img/qiniu.png) no-repeat;
+  margin-left: 74px;
+}
+
+/* footer部分 */
+.footer .title {
+  margin-top: 21px;
+  margin-bottom: 28px;
+}
+
+.footer .link ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.footer .link ul li{
+  list-style: disc;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: bold;
+  color: #999999;
+  line-height: 30px;
+  margin-right: 80px;
+}
+
+.footer .end {
+  height: 200px;
+  width: 100%;
+  background-color: #26A270;
+}
+
+.footer .information {
+  position: relative;
+  height: 170px;
+}
+
+.footer .end .topic {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: #FFFFFF;
+  line-height: 12px;
+  position: absolute;
+  top: 37px;
+}
+
+.footer .end .web {
+  position: absolute;
+  top: 36px;
+  left: 363px;
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: #FFFFFF;
+  line-height: 12px;
+}
+
+.footer .end .about_us ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .end .about_us ul li{
+  float: left;
+  margin-top: 121px;
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: #FFFFFF;
+  line-height: 16px;
+}
+
+.footer .end .about_us ul li:nth-child(2){
+  padding: 0 10px;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+.footer .end .about_us ul li:nth-child(3){
+  padding-left: 10px;
+}
+
+.footer .end .about_us ul li:nth-child(1){
+  padding-right: 10px;
+}
+
+.footer .end .web_link span{
+  position: absolute;
+  top: 82px;
+  left: 363px;
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: #FFFFFF;
+  line-height: 12px;
+}
+
+.footer .end .web_link span:nth-child(2) {
+  left: 481px;
+}
+
+.footer .end .web_link span:nth-child(3) {
+  top: 123px;
+}
+
+.footer .end .web_link span:nth-child(4) {
+  left: 481px;
+  top: 123px;
+}
+
+.footer .end .vx .topic{
+  position: absolute;
+  right: 0;
+  top: 38px;
+}
+
+.footer .end .vx .icon{
+  width: 92px;
+  height: 92px;
+  background-image: url(../img/vx.png);
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+
+.footer .copyright {
+  text-align: center;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 12px;
+  padding-top: 7px;
+  border-top: 1px solid #33C086;
 }
