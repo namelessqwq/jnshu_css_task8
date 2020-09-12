@@ -140,6 +140,52 @@ a:visited {
   padding: 2px;
 }
 
+.main .profile{
+  position: relative;
+
+}
+
+@keyframes mouseHover{
+  0%   {background: rgba(0, 0, 0, 0.16);}
+  25%  {background: rgba(0, 0, 0, 0.26);}
+  50%  {background: rgba(0, 0, 0, 0.46);}
+  75%  {background: rgba(0, 0, 0, 0.66);}
+  100% {background: rgba(0, 0, 0, 0.76);}
+}
+
+.main .content div[class^="job_"] ul li:hover .profile:after{
+  background: rgba(0, 0, 0, 0.76);
+  box-shadow: 1px 1px 3px 0px rgba(9, 2, 3, 0.15);
+  z-index: 10;
+  width: 372px;
+  height: 444px;
+  padding-top: 139px;
+  padding-left: 41px;
+  padding-right: 41px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "iOS是由苹果公司开发的移动操作统，iOS与苹果的Mac OS X操作系统一样，也是以Darwin为基础的，因此同样属 于类Unix的商业操作系统。国内iOS开 发起步相对较晚，人才培养机制更是远 远跟不上市场发展速度。有限的iOS开 发人才成了国内企业必争的资源。国内 iOS开发起步相对较晚，人才培养机制 更是远远跟不上市场发展速度。有限的iOS开发人才成了国内企业必争的资源。";
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #FFFFFF;
+  animation:mouseHover 0.3s;
+  -webkit-animation:mouseHover 0.3s;
+}
+
+.main .content div[class^="job_"] ul li:hover .profile:before{
+  position: absolute;
+  top: 86px;
+  left: 140px;
+  content: "iOS工程师";
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #FFFFFF;
+  z-index: 20;
+}
+
 .main .bar ul li:nth-child(1){
   margin-right: 29px;
   color: #999;
@@ -170,7 +216,7 @@ a:visited {
 }
 
 .main .content div[class^="job_"] ul li {
-  width: 382px;
+  width: 372px;
   height: 444px;
   background: #FFFFFF;
   box-shadow: 1px 1px 3px 0px rgba(9, 2, 3, 0.15);
